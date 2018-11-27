@@ -1,0 +1,222 @@
+html, body {
+    margin: 0;
+}
+
+.flexContainer {
+    display: flex;
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Merriweather', sans-serif;
+    font-size: 32px;
+}
+
+.flexItem {
+    flex: 1;
+    margin: 0;
+
+}
+
+.flexStart {
+    justify-content: flex-start;
+}
+
+.flexEnd {
+    justify-content: flex-end;
+    padding-top: 30px;
+    font-size: 19px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.nav {
+    list-style: none;
+    border-bottom: 4px solid yellow;
+
+}
+
+.nav a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+}
+a:hover{
+    color:yellow;
+}
+div {
+    flex-wrap: wrap;
+    display: inline-block;    
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 25px;
+}
+
+.tagline {
+    text-align: center;
+    margin: 0;
+    padding: 25px;
+    font-size: 30px;
+    line-height: 30px;
+    font-style: italic;
+    background: #C6C6C6;
+    border-top: 2px solid #AAA;
+    font-weight: bold;
+}
+
+.tagline ins {
+    text-decoration: none;
+    border-bottom: 3px solid yellow;
+}
+
+.tagline del {
+    color: #999;
+}
+
+.banner {
+    background: url(../images/coworking.jpg) center center no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    padding: 3%;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, .75);
+}
+
+section {
+    display: block;
+}
+
+.blurb {
+
+    background: rgba(255, 255, 255, .8);
+    width: 34%;
+    margin: 0 auto;
+    padding: 35px;
+    float: right;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .75);
+}
+.touts {
+    display: flex;
+   
+}
+.tout {
+   
+    padding: 10px;
+    margin: 10px;
+    margin-left: 5%;
+    border: 10px;
+    display: inline-flex;
+    box-shadow: inset -1px 0 0 rgba(0, 0, 0, .15);
+    font-family: 'Merriweather', sans-serif;
+   
+}
+
+.tout .button {
+    background: #c6c6c6;
+}
+
+.tout:last-child {
+
+    box-shadow: none;
+}
+
+.button {
+    background: #C6C6C6;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-weight: bolder;
+    color: black;
+    display:block;
+    background: yellow;
+    text-align: center;
+    padding: 23px;
+    box-shadow: inset 0 -3px 0 rgba(0, 0, 0, .2);
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+h3, p {
+    font-family: 'Merriweather', serif;
+    font-size: 28px;
+
+}
+
+.col {
+    width: 8.3333%;
+    /* min-height: 100%; */
+}
+
+.col-2 {
+    width: calc(2 * 8.3333%);
+}
+
+.col-3 {
+    width: calc(3 * 8.3333%);
+}
+/* draft for future column purposes */
+/* .col-4 {
+    width: calc(4 * 8.3333%);
+}
+
+.col-5 {
+    width: calc(5 * 8.3333%);
+}
+
+.col-6 {
+    width: calc(6 * 8.3333%);
+}
+
+.col-7 {
+    width: calc(7 * 8.3333%);
+}
+
+.col-8 {
+    width: calc(8 * 8.3333%);
+}
+
+.col-9 {
+    width: calc(9 * 8.3333%);
+}
+
+.col-10 {
+    width: calc(10 * 8.3333%);
+}
+
+.col-11 {
+    width: calc(11 * 8.3333%);
+} */
+
+.col-12 {
+    width: calc(12 * 8.3333%);
+}
+
+.black {
+    background-color: black;
+}
+
+.yellow {
+    background-color: yellow;
+
+}
+
+.grey {
+    background-color: grey;
+}
+
+.wcolor {
+    color: white;
+}
+
+.fcolor {
+    color: yellow;
+
+}
+
+footer {
+    color: white;
+    font-weight: 900;
+    font-size: inherit;
+    padding-top: 20px;
+}
